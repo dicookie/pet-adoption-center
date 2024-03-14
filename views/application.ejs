@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt Application</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap">
+</head>
+<body>
+    <%- include('header') %>
+
+    <main>
+        <h2>Adoption Application Form</h2>
+        <form id="adoption-application" action="submit_application_endpoint" method="post">
+            <div>
+                <label for="firstName">Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div>
+                <label for="emailAddress">Email Address:</label>
+                <input type="email" id="emailAddress" name="emailAddress" required>
+            </div>
+            <div>
+                <label for="petChoiceLabel">Choose a Pet:</label>
+                <select id="petChoice" >
+                    <option>       </option>
+                </select>
+            </div>
+            <div>
+                <label for="additionalNote">Additional Note:</label>
+                <textarea id="additionalNote" name="additionalNote"></textarea>
+            </div>
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+    
+    <%- include('footer') %>
+    
+    <script src="js/application.js"></script>
+</body>
+</html>

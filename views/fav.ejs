@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Favorite Pets</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap">
+</head>
+<body>
+  
+    <%- include('header') %>
+
+    <div class="favorite-pets-container">
+    <ul class="favorite-pets">
+        <% favorites.forEach(favorite => { %>
+            <li id="favorite-<%= favorite.petId %>">
+                <h2><%= favorite.Pet.name %></h2>
+                <img src="<%= favorite.Pet.photoUrl %>" alt="<%= favorite.Pet.name %>" style="width: 200px; height: 180px;">
+                <button onclick="deleteFavorite('<%= favorite.petId %>')">Delete</button>
+            </li>
+        <% }); %>
+    </ul>
+    </div>
+
+    <%- include('footer') %>
+
+    <script>
+        
+        async function deleteFavorite(petId) {
+            try {
+                const response = await fetch(`/delete-favorite/${petId}`, {
+                    method: 'DELETE',
+                });
+                const data = await response.json();
+                if (data.success) {
+                    const favoriteElement = document.getElementById(`favorite-${petId}`);
+                    if (favoriteElement) {
+                        favoriteElement.remove();
+                    }
+                    alert('Pet deleted from favorites!');
+                } else {
+                    alert('Failed to delete pet from favorites.');
+                }
+            } catch (error) {
+                console.error('Error deleting pet from favorites:', error);
+                alert('Failed to delete pet from favorites. Please try again later.');
+            }
+        }
+    </script>
+</body>
+</html>

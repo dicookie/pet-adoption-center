@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Buddy",
+        "type": "Dog",
+        "age": "Young",
+        "size": "Medium",
+        "description": "Buddy is a playful and friendly companion, always ready to greet you with a wagging tail. He loves exploring new environments and making friends wherever he goes. Buddy's enthusiasm and zest for life are infectious, bringing joy to everyone around him.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2021/09/30/21/20210930213044.png"
+    },
+    {
+        "id": 2,
+        "name": "Whiskers",
+        "type": "Cat",
+        "age": "Adult",
+        "size": "Small",
+        "description": "Whiskers is a calm and loving soul, who enjoys lounging in cozy spots and watching the world go by. He is affectionate and enjoys gentle pets and cuddles from his favorite humans. Whiskers' gentle demeanor and soothing presence make him a beloved member of any household.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2023/12/26/13/20231226135019.png"
+    },
+    {
+        "id": 3,
+        "name": "Rex",
+        "type": "Dog",
+        "age": "Adult",
+        "size": "Large",
+        "description": "Rex is a loyal and protective companion, always by your side through thick and thin. He has a calm and steady demeanor, making him a comforting presence in any situation. Rex's unwavering loyalty and gentle nature make him the perfect companion for outdoor adventures and cozy nights at home.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/01/04/15/20240104155220.png"
+    },
+    {
+        "id": 4,
+        "name": "Mittens",
+        "type": "Cat",
+        "age": "Young",
+        "size": "Small",
+        "description": "Mittens is an energetic and curious kitten, always on the lookout for new adventures and discoveries. She loves chasing after toys and exploring every nook and cranny of her environment. Mittens' playful antics and boundless energy are sure to bring laughter and joy to any household.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/01/04/16/20240104160925.png"
+    },
+    {
+        "id": 5,
+        "name": "Charlie",
+        "type": "Dog",
+        "age": "Young",
+        "size": "Small",
+        "description": "Charlie is a small but fearless puppy, always eager to explore the world around him. He approaches every new experience with curiosity and excitement, ready to tackle any challenge that comes his way. Charlie's adventurous spirit and playful nature make him the perfect companion for outdoor adventures and indoor snuggles.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/02/06/16/20240206163035.png"
+    },
+    {
+        "id": 6,
+        "name": "Shadow",
+        "type": "Cat",
+        "age": "Adult",
+        "size": "Medium",
+        "description": "Shadow is a mysterious and independent cat, who marches to the beat of his own drum. He enjoys spending time exploring his surroundings and observing the world with a keen eye. Shadow's enigmatic presence and quiet confidence make him a fascinating companion for those who appreciate his unique personality.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/02/29/10/20240229102044.png"
+    },
+    {
+        "id": 7,
+        "name": "Max",
+        "type": "Dog",
+        "age": "Adult",
+        "size": "Large",
+        "description": "Max is a friendly giant with a big heart, always ready to shower his humans with love and affection. He enjoys spending time outdoors, exploring nature trails and playing fetch in the park. Max's gentle demeanor and loving nature make him a cherished member of any family.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/02/12/10/20240212103405.png"
+    },
+    {
+        "id": 8,
+        "name": "Luna",
+        "type": "Cat",
+        "age": "Young",
+        "size": "Medium",
+        "description": "Luna is a playful kitten who loves to explore her surroundings and discover new treasures. She is always on the move, chasing after toys and climbing to new heights. Luna's playful antics and boundless energy are sure to bring laughter and joy to any household.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/02/01/11/20240201115351.png"
+    },
+    {
+        "id": 9,
+        "name": "Rocky",
+        "type": "Dog",
+        "age": "Young",
+        "size": "Large",
+        "description": "Rocky is a large puppy with a lot of energy, always eager to embark on new adventures. He loves spending time outdoors, exploring nature trails and playing fetch in the park. Rocky's boundless enthusiasm and playful nature make him the perfect companion for active individuals or families.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2024/01/24/15/20240124155044.png"
+    },
+    {
+        "id": 10,
+        "name": "Simba",
+        "type": "Cat",
+        "age": "Adult",
+        "size": "Large",
+        "description": "Simba is a majestic cat with a regal presence, commanding attention wherever he goes. He enjoys lounging in sunbeams and surveying his kingdom from high vantage points. Simba's dignified demeanor and royal bearing make him the perfect companion for those who appreciate his noble spirit.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2022/06/02/10/20220602100543.png"
+    },
+    {
+        "id": 11,
+        "name": "Bella",
+        "type": "Dog",
+        "age": "Adult",
+        "size": "Medium",
+        "description": "Bella is a gentle and loving companion, always eager to shower her humans with affection. She enjoys leisurely walks in the park and snuggling up on the couch for a cozy nap. Bella's sweet temperament and affectionate nature make her a cherished member of any family.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2023/12/13/13/20231213132239.png"
+    },
+    {
+        "id": 12,
+        "name": "Oliver",
+        "type": "Cat",
+        "age": "Young",
+        "size": "Small",
+        "description": "Oliver is a tiny kitten with a big personality, always ready to charm his way into your heart. He loves chasing after toys and exploring every nook and cranny of his environment. Oliver's playful antics and adorable meows are sure to melt the hearts of everyone he meets.",
+        "photoUrl": "https://sl-prod-v2-cdn.shelterluv.com/sites/default/files/animal_pics/20/2023/12/04/16/20231204160536.png"
+    }
+]

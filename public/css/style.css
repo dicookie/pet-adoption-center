@@ -1,0 +1,289 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Madimi One','Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #FF6F61;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    padding-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+button[type="submit"] {
+    background-color: #FF6F61;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3F9966;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #cccccc;
+}
+
+.adopt-btn {
+    display: inline-block;
+    background-color: #FF6F61;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adopt-btn:hover {
+    background-color: #3F9966;
+}
+
+#filter-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pets-list {
+    display: grid;
+    justify-self:center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.details-btn {
+    display: block;
+}
+
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    margin-bottom: 1.5rem;
+}
+
+.favorite-pets {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+.favorite-pets li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-pets h2 {
+    margin-bottom: 10px;
+}
+
+.favorite-pets img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.favorite-pets button {
+    background-color: #FF6F61;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-pets button:hover {
+    background-color: #3F9966;
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    margin-bottom: 1rem;
+}
+
+.filter-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+
+.filter-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filter-form div {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 15px;
+}
+
+.filter-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filter-form select {
+    width: calc(100% - 20px); 
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.filter-form button {
+    background-color: #FF6F61;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-form button:hover {
+    background-color: #3F9966;
+}
+
+.pet-details {
+    width: 45%;
+}
+
+.pet-details h1 {
+    margin-bottom: 10px;
+}
+
+.pet-details p {
+    margin-bottom: 8px;
+}
+
+.pet-details button {
+    padding: 8px 16px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pet-details button:hover {
+    background-color: #3F9966;
+}
+
+.pet-image {
+    width: 45%;
+    text-align: center;
+}
+
+.pet-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.pet-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.favorite-pets-container {
+    padding-top: 20px;
+}
+
+button {
+    font-family: 'Madimi One', cursive;
+}
+
+select {
+    font-family: 'Madimi One', cursive;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.pet img {
+    width: 200px;
+    height: 180px;
+    border: 5px solid transparent; 
+    transition: border-color 0.3s;
+}
+
+.pet img:hover {
+    border-color: #3F9966;
+}

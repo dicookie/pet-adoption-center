@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Center</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Pet Adoption Center</h1>
+        <nav>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/">Main</a></li>
+                <li><a href="/favorite">Favorite</a></li>
+                <li><a href="/adopt">Adopt</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+    
+    <form id="filter-form" class="filter-form">
+        <div>
+            <label for="type">Type:</label>
+            <select id="type">
+                <option value="All">All</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <select id="age">
+                <option value="All">All</option>
+                <option value="Young">Young</option>
+                <option value="Adult">Adult</option>
+            </select>
+        </div>
+        <div>
+            <label for="size">Size:</label>
+            <select id="size">
+                <option value="All">All</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+            </select>
+        </div>
+        <button type="button" onclick="applyFilters()">Apply Filters</button>
+    </form>
+    </aside>
+    <main>
+        <section id="pets-list">
+        </section>
+    </main>
+    <footer>
+        <p>Pet Adoption Center © 2024</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
