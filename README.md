@@ -18,8 +18,6 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 
 
 ## Screenshots
-Insert your screenshots here. You can upload images to a service like Imgur and link them directly in your README. For example:
-
 ![About Us Page](https://imgur.com/Ezy9CvG)
 ![Main Page](https://imgur.com/QwdalWw)
 
