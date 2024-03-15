@@ -18,8 +18,8 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 
 
 ## Screenshots
-![About Us Page](https://imgur.com/Ezy9CvG)
-![Main Page](https://imgur.com/QwdalWw)
+![About Us Page](https://imgur.com/Ezy9CvG.png)
+![Main Page](https://imgur.com/QwdalWw.png)
 
 ## Installation Instructions
 
