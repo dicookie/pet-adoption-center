@@ -17,7 +17,7 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 - Responsive design for a broad range of devices and screen sizes.
 
 
-## Screenshots
+## Screenshot
 ![Main Page](https://imgur.com/QwdalWw.png)
 
 ## Installation Instructions
