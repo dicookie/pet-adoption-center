@@ -46,7 +46,7 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 
 ![](https://i.postimg.cc/B6rQfzB8/fav.gif)
 
-### Apply for Pet Adoption**
+### Apply for Pet Adoption
 
 - Allows users to fill out adoption application
 
