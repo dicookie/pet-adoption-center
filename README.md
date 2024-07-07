@@ -17,8 +17,39 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 - Responsive design for a broad range of devices and screen sizes.
 
 
-## Screenshot
+## Screenshots
+
 ![Main Page](https://imgur.com/QwdalWw.png)
+
+### Overview of All Pets
+
+Provides an overview of all available pets for adoption
+
+![](https://i.postimg.cc/WpZ1w2s0/overview.gif)
+
+### Filter Pets
+
+Allows users to refine their pet search using filters species, age, and size
+
+![](https://i.postimg.cc/sXQD8z7d/filter.gif)
+
+### Pet Detail Page and Add to Favorites
+
+Displays detailed information about a specific pet, and allows users to add pets they are interested in to their wishlist
+
+![](https://i.postimg.cc/cCf1xcFF/specific.gif)
+
+### View or Delete Favorite
+
+Enables users to manage their wishlist
+
+![](https://i.postimg.cc/B6rQfzB8/fav.gif)
+
+### Apply for Pet Adoption**
+
+Allows users to fill out adoption application
+
+![](https://i.postimg.cc/k555QK55/apply.gif)
 
 ## Installation Instructions
 
