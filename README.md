@@ -25,7 +25,7 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 
 - Provides an overview of all available pets for adoption
 
-![](https://i.postimg.cc/WpZ1w2s0/overview.gif)
+![](https://i.imgur.com/yT10YMH.gif)
 
 ### Filter Pets
 
@@ -38,7 +38,7 @@ This is a dynamic platform to show a list of pets for adoption. It allows users 
 - Displays detailed information about a specific pet
 - Allows users to add pets they are interested in to their wishlist
 
-![](https://i.postimg.cc/cCf1xcFF/specific.gif)
+![](https://i.imgur.com/Lfc3P4C.gif)
 
 ### View or Delete Favorite
 
